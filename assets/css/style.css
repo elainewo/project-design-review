@@ -152,10 +152,10 @@ header a {
 }
 
 #how-works article {
-    height: 53vh;
     width: 80%;
     background: url(../img/home_how_it_works.png) right/contain no-repeat rgb(227, 232, 243);
     margin: 0 auto;
+    padding-bottom: 3%;
 }
 
 #how-works div {
@@ -184,7 +184,7 @@ header a {
 #critique {
     height: 90vh;
     background: url(../img/28.png) center/contain no-repeat;
-    margin-bottom: 3%;
+    padding: 3% 0;
 }
 
 #critique article{
@@ -214,8 +214,8 @@ header a {
 #critique article div:nth-child(2) {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    margin-top: 26%;
+    /* align-items: flex-end; */
+    margin-top: 20%;
 }
 
 #critique article div:nth-child(2) p{
@@ -242,7 +242,8 @@ header a {
 #questions {
     display: flex;
     justify-content: center;
-    padding: 2% 0;
+    padding-top: 6%;
+    padding-bottom: 2%;
 }
 
 #questions h2 {
